@@ -1,0 +1,95 @@
+#Copyright: IntelliJente
+#Discord: IntelliJente#2723
+#Config.yml pt-br and en-gb
+
+GUI:
+  #Nome do GUI
+  #GUI NAME
+  Name: "&5Nome do GUI"
+  #Tamanho 9*x
+  #GUI size 9*x
+  Size: 4
+  #Preencher espa��o sem items
+  #Fill empty spaces
+  Fill:
+    Activate: true
+    ID: 160
+    Data: 0
+    name: "&0&ki"
+
+#Mensagem que vai ser enviada ao player
+#Message the player
+Message:
+  Activate: true
+  Messages:
+    - "&fEste vip custa &eR$%price%"
+    - "&fMetodos de pagamento: &ePayPal, Mercado Pago"
+    - "&fSite: &eBlabla.com"
+    - "&fDiscord: &eIntelliJente#2723"
+
+#Altura do HD
+#Aconselho a deixar 2 se não tiver muitas linhas
+#HD height
+#Default is 2
+Height: 2
+
+#Distância do HD para desaparecer(X,Y,Z)
+#HD distance to vanish(X,Y,Z)
+Distance: 5
+
+#Aqui você vai criar os vips que quiser
+#Create a lot of configurations
+Vips:
+  #Nome da configuração
+  #Configuration name
+  Vip1:
+    #Preço do vip
+    #Vip Price
+    price: 20
+    #Item
+    id: 2
+    #Data do item
+    #Item data
+    data: 0
+    #Nome do item
+    #Item Name
+    name: "&aVip1"
+    #Brilhar
+    #Glow
+    glow: true
+    #Lore do Item
+    #Item lore
+    lore:
+      - "&eR$20"
+      - "&fClique para ver mais informa����es"
+    #Slot onde o item vai ficar
+    slot: 0
+    #Holograma
+    #Hologram
+    hologram:
+      - "&aVip1"
+      - "&6Vantagens de ser vip"
+      - "&5Kit P75"
+      - "&5Fly"
+      - "&9Hat"
+
+  #GOD APPLE exemplo
+  #GOD APPLE example
+  Vip2:
+    price: 40
+    id: 322
+    data: 1
+    name: "&aVip2"
+    glow: false
+    lore:
+      - "&eR$40"
+      - "&eEsse vip �� melhor que o Vip1"
+      - "&fClique para ver mais informa����es"
+    slot: 35
+    hologram:
+      - "&aVip2"
+      - "&6Vantagens de ser vip"
+      - "&5Kit P80"
+      - "&5Fly"
+      - "&310 Plots"
+      - "&9Hat"

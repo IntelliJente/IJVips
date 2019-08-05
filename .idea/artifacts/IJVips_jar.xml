@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="IJVips:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/IJVips_jar</output-path>
+    <root id="archive" name="IJVips.jar">
+      <element id="module-output" name="IJVips" />
+    </root>
+  </artifact>
+</component>

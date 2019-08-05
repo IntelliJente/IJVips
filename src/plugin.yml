@@ -1,0 +1,6 @@
+name: IJVips
+main: pt.intellijente.vips.Main
+version: 1.0
+softdepend: [HolographicDisplays]
+commands:
+  vip:

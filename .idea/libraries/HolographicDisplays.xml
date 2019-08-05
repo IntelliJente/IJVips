@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="HolographicDisplays">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../RUSH B/plugins/HolographicDisplays.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
